@@ -10,4 +10,5 @@ describe('snapshot testing', () => {
     const renderdComponent = renderer.create(<App />).toJSON()
     expect(renderdComponent).toMatchSnapshot()
 })
+
 })
